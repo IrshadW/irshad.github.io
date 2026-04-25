@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #ecfdf5, #d1fae5);
+  color: #064e3b;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+  backdrop-filter: blur(10px);
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #064e3b;
+}
+
+/* Hero */
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero h1 {
+  font-size: 48px;
+}
+
+.subtitle {
+  margin-top: 10px;
+  color: #047857;
+}
+
+/* Button */
+.btn {
+  margin-top: 25px;
+  display: inline-block;
+  padding: 12px 24px;
+  background: #34d399;
+  color: white;
+  border-radius: 12px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #10

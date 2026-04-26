@@ -121,3 +121,7 @@ section {
 .card:hover {
   transform: translateY(-10px);
 }
+
+html {
+  scroll-behavior: smooth;
+}
